@@ -1,0 +1,51 @@
+MODEL 1 - Full Model                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:              inflation   R-squared:                       0.277
+Model:                            OLS   Adj. R-squared:                  0.242
+Method:                 Least Squares   F-statistic:                     8.041
+Date:                Wed, 10 Jun 2026   Prob (F-statistic):            0.00110
+Time:                        19:28:31   Log-Likelihood:                -150.89
+No. Observations:                  45   AIC:                             307.8
+Df Residuals:                      42   BIC:                             313.2
+Df Model:                           2                                         
+Covariance Type:            nonrobust                                         
+=================================================================================
+                    coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------
+const            21.0363      2.714      7.752      0.000      15.560      26.513
+exchange_rate    -0.0632      0.030     -2.084      0.043      -0.124      -0.002
+gdp_growth       -1.4888      0.492     -3.026      0.004      -2.482      -0.496
+==============================================================================
+Omnibus:                       28.731   Durbin-Watson:                   1.153
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               72.297
+Skew:                           1.635   Prob(JB):                     2.00e-16
+Kurtosis:                       8.278   Cond. No.                         190.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.MODEL 2 - Reduced Model                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:              inflation   R-squared:                       0.277
+Model:                            OLS   Adj. R-squared:                  0.242
+Method:                 Least Squares   F-statistic:                     8.041
+Date:                Wed, 10 Jun 2026   Prob (F-statistic):            0.00110
+Time:                        19:28:31   Log-Likelihood:                -150.89
+No. Observations:                  45   AIC:                             307.8
+Df Residuals:                      42   BIC:                             313.2
+Df Model:                           2                                         
+Covariance Type:            nonrobust                                         
+=================================================================================
+                    coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------
+const            21.0363      2.714      7.752      0.000      15.560      26.513
+exchange_rate    -0.0632      0.030     -2.084      0.043      -0.124      -0.002
+gdp_growth       -1.4888      0.492     -3.026      0.004      -2.482      -0.496
+==============================================================================
+Omnibus:                       28.731   Durbin-Watson:                   1.153
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               72.297
+Skew:                           1.635   Prob(JB):                     2.00e-16
+Kurtosis:                       8.278   Cond. No.                         190.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
